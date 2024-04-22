@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List</title>
+    <link rel="stylesheet" href="to-do_list.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <!-- Iconscout Link For Icons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha384-vkBK/XJvDnYUv7XqEAqFQin73v+OYN4Z1vE6VRKgUrHtR3I8U8yg8brB2ViqsbXv" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="contain mt-3">
+      <div id="myDIV" class="header mb-2">
+        <h2>My To Do List</h2>
+        <input type="text" id="search-input" placeholder="Search...">
+        <span  id="search-button" class="addBtn"><i class='bx bx-search-alt'>Search</i></span>
+    </div>
+        <div class="to-do">
+            
+            <ul id="myUL">
+                <li>Hit the gym</li>
+                <li class="checked">Pay bills</li>
+                <li>Meet George</li>
+                <li>Learn New Things Every Day</li>
+                <li>Read a book</li>
+                <li>Organize office</li>
+            </ul>
+        </div>
+    
+        <div id="myDIV" class="header">
+            <input type="text" id="myInput" placeholder="Add a Tasks...">
+            <span onclick="newElement()" class="addBtn"><i class='bx bx-task'> Add</i></span>
+        </div>
+        
+    </div>
+    <div>
+      <footer>
+        <div class="footer__social ">
+        <a href="https://www.facebook.com/karthick.v.3538?mibextid=ZbWKwL" class="footer__icon" target="_blank">
+          <i class='bx bxl-facebook' ></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mohanprasath-r-b915692a1" class="footer__icon" target="_blank">
+          <i class='bx bxl-linkedin' ></i>
+        </a>
+        <a href="https://github.com/Prasathcode" class="footer__icon" target="_blank"><i class='bx bxl-github' ></i>
+        </a>
+      
+        </div>
+          <div class="st-copyright-wrap text-center">
+              <div class="st-copyright-text">
+                  © 2024. Designed & Developed by
+                  <a href="https://karthiklal.live">R Mohanprasath</a>. 
+                  <p>All right reserved.</p>
+              </div>
+          </div>
+      </footer>
+    </div>
+  
+    <script src="to-do_list.js"></script>
+
+  </body>
+</html>
